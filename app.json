@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "github-search-repo",
+    "slug": "github-search-repo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/github-logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.gitsearch"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/github-logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.gitsearch"
+    },
+    "web": {
+      "favicon": "./assets/images/github-logo.png"
+    }
+  }
+}
